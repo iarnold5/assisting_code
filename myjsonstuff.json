@@ -1,1 +1,203 @@
-{ "name": "wholeEntity", "children": [{ "name": "Central", "children": [{ "name": "Gill", "children": [{ "name": "Binder", "size": 2},{ "name": "Pencil", "size": 2},{ "name": "Pen", "size": 1}]},{ "name": "Jardine", "children": [{ "name": "Binder", "size": 2},{ "name": "Pencil", "size": 2},{ "name": "Pen Set", "size": 1}]},{ "name": "Andrews", "children": [{ "name": "Pencil", "size": 3},{ "name": "Binder", "size": 1}]},{ "name": "Kivell", "children": [{ "name": "Pen Set", "size": 2},{ "name": "Binder", "size": 1},{ "name": "Desk", "size": 1}]},{ "name": "Morgan", "children": [{ "name": "Binder", "size": 1},{ "name": "Pen Set", "size": 1},{ "name": "Pencil", "size": 1}]},{ "name": "Smith", "children": [{ "name": "Binder", "size": 1},{ "name": "Desk", "size": 1},{ "name": "Pencil", "size": 1}]}]},{ "name": "East", "children": [{ "name": "Jones", "children": [{ "name": "Binder", "size": 3},{ "name": "Pen Set", "size": 2},{ "name": "Pencil", "size": 2},{ "name": "Pen", "size": 1}]},{ "name": "Parent", "children": [{ "name": "Binder", "size": 1},{ "name": "Pen", "size": 1},{ "name": "Pen Set", "size": 1}]},{ "name": "Howard", "children": [{ "name": "Binder", "size": 1},{ "name": "Pen", "size": 1}]}]},{ "name": "West", "children": [{ "name": "Sorvino", "children": [{ "name": "Binder", "size": 1},{ "name": "Desk", "size": 1},{ "name": "Pen", "size": 1},{ "name": "Pencil", "size": 1}]},{ "name": "Thompson", "children": [{ "name": "Binder", "size": 1},{ "name": "Pencil", "size": 1}]}]}]}
+{
+	"name": "wholeEntity",
+	"children": [{
+			"name": "Central",
+			"parentname": "wholeEntity",
+			"children": [{
+					"name": "Gill",
+					"parentname": "Central",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Gill",
+							"size": 2
+						}, {
+							"name": "Pencil",
+							"parentname": "Gill",
+							"size": 2
+						}, {
+							"name": "Pen",
+							"parentname": "Gill",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Jardine",
+					"parentname": "Central",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Jardine",
+							"size": 2
+						}, {
+							"name": "Pencil",
+							"parentname": "Jardine",
+							"size": 2
+						}, {
+							"name": "Pen Set",
+							"parentname": "Jardine",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Andrews",
+					"parentname": "Central",
+					"children": [{
+							"name": "Pencil",
+							"parentname": "Andrews",
+							"size": 3
+						}, {
+							"name": "Binder",
+							"parentname": "Andrews",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Kivell",
+					"parentname": "Central",
+					"children": [{
+							"name": "Pen Set",
+							"parentname": "Kivell",
+							"size": 2
+						}, {
+							"name": "Binder",
+							"parentname": "Kivell",
+							"size": 1
+						}, {
+							"name": "Desk",
+							"parentname": "Kivell",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Morgan",
+					"parentname": "Central",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Morgan",
+							"size": 1
+						}, {
+							"name": "Pen Set",
+							"parentname": "Morgan",
+							"size": 1
+						}, {
+							"name": "Pencil",
+							"parentname": "Morgan",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Smith",
+					"parentname": "Central",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Smith",
+							"size": 1
+						}, {
+							"name": "Desk",
+							"parentname": "Smith",
+							"size": 1
+						}, {
+							"name": "Pencil",
+							"parentname": "Smith",
+							"size": 1
+						}
+					]
+				}
+			]
+		}, {
+			"name": "East",
+			"parentname": "wholeEntity",
+			"children": [{
+					"name": "Jones",
+					"parentname": "East",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Jones",
+							"size": 3
+						}, {
+							"name": "Pen Set",
+							"parentname": "Jones",
+							"size": 2
+						}, {
+							"name": "Pencil",
+							"parentname": "Jones",
+							"size": 2
+						}, {
+							"name": "Pen",
+							"parentname": "Jones",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Parent",
+					"parentname": "East",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Parent",
+							"size": 1
+						}, {
+							"name": "Pen",
+							"parentname": "Parent",
+							"size": 1
+						}, {
+							"name": "Pen Set",
+							"parentname": "Parent",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Howard",
+					"parentname": "East",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Howard",
+							"size": 1
+						}, {
+							"name": "Pen",
+							"parentname": "Howard",
+							"size": 1
+						}
+					]
+				}
+			]
+		}, {
+			"name": "West",
+			"parentname": "wholeEntity",
+			"children": [{
+					"name": "Sorvino",
+					"parentname": "West",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Sorvino",
+							"size": 1
+						}, {
+							"name": "Desk",
+							"parentname": "Sorvino",
+							"size": 1
+						}, {
+							"name": "Pen",
+							"parentname": "Sorvino",
+							"size": 1
+						}, {
+							"name": "Pencil",
+							"parentname": "Sorvino",
+							"size": 1
+						}
+					]
+				}, {
+					"name": "Thompson",
+					"parentname": "West",
+					"children": [{
+							"name": "Binder",
+							"parentname": "Thompson",
+							"size": 1
+						}, {
+							"name": "Pencil",
+							"parentname": "Thompson",
+							"size": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}
