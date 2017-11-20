@@ -1,2 +1,2 @@
-# stolen_stuff
-A bunch of stuff I stole :)
+# assisting_code
+A bunch of stuff I borrowed or wrote to make things a little easier :)
